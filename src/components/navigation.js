@@ -61,7 +61,7 @@ export const DrawerNavs = ({auth, unsetUser, history}) => {
                     <IconButton onClick={e=>{e.preventDefault();history.push('/my-profile')}} color="primary">
                         <AccountCircle/>
                     </IconButton>
-                    : <img className={classes.img} src="/logo.png" alt="logo"/>
+                    : <img className={classes.img} src="%PUBLIC_URL%/logo.png" alt="logo"/>
                 }
             </div>
             <Divider/>

@@ -56,7 +56,7 @@ const Footer = () => {
         <footer className={classes.footer}>
           <Grid data-test="footer-sec" container className={classes.container} spacing={2}>
             <Grid item xs={12} sm={12} md={6}>
-            <img src="/org_title.png" width="60%" alt="organisation Name"/>
+            <img src="%PUBLIC_URL%/org_title.png" width="60%" alt="organisation Name"/>
             <Typography variant="subtitle1" color="textSecondary" component="p">
               Achieving mastery since 2000, Pharmaceutical Industry, Gitanjali Park SEZ, Life Sciences, TCS TEAM OSPOD 2020
             </Typography>
